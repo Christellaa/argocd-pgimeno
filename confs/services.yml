@@ -7,5 +7,5 @@ spec:
     app: app-selec
   ports:
     - port: 80
-      targetPort: 80
+      targetPort: 8081
       protocol: TCP
