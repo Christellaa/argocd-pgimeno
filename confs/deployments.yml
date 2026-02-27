@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app-container
-          image: christellaa/ci-cd-integration-img:latest
+          image: christellaa/ci-cd-integration-img:v1
           ports:
             - containerPort: 8081
           imagePullPolicy: IfNotPresent
